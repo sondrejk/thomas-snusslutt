@@ -9,8 +9,8 @@ There are two options:
 # How to deploy
 At the moment I don't have an automatic deploying solution
 
-1. `docker build --no-cache . -f dockerfile.prod -t sondrejk/snusnettside`
-2. `docker push sondrejk/snusnettside`\
+1. `docker build --no-cache . -f dockerfile.prod -t sondrejk/thomas-snusslutt`
+2. `docker push sondrejk/thomas-snusslutt`\
 On kvasir server
-3. `docker pull sondrejk/snusnettside`\
+3. `docker pull sondrejk/thomas-snusslutt`\
 re-run the docker container
