@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+#memes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+#memes img {
+  width: 90%;
+  max-width: 500px;
+  height: auto;
+  border-radius: 12px;
+}
+
+@media (min-width: 769px) {
+  #memes img {
+    max-width: 800px;
+  }
+}
+
