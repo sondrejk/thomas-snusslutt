@@ -13,4 +13,5 @@ At the moment I don't have an automatic deploying solution
 2. `docker push sondrejk/thomas-snusslutt`\
 On kvasir server
 3. `docker pull sondrejk/thomas-snusslutt`\
-re-run the docker container
+4. `docker stop <id>`
+5. `docker run -d -p 3000:3000 -t sondrejk/thomas-snusslutt`
