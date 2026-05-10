@@ -1,0 +1,8 @@
+services:
+  web:
+    image: sondrejk/thomas-snusslutt:latest
+    container_name: thomas-snusslutt-web
+    pull_policy: always
+    restart: unless-stopped
+    ports:
+      - "3100:3000"
