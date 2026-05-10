@@ -1,8 +1,9 @@
 services:
   web:
-    image: sondrejk/thomas-snusslutt:latest
+    build:
+      context: .
+      dockerfile: dockerfile.prod
     container_name: thomas-snusslutt-web
-    pull_policy: always
     restart: unless-stopped
     ports:
       - "3100:3000"
