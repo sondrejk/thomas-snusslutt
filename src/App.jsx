@@ -4,7 +4,7 @@ import "./App.css";
 function App() {
   return (
     <>
-      <h1>DU ER HELT RÅ THOMAS!!!</h1>
+      <h1>DU ER HELT RÅ THOMAS!!!!!!!!!!!</h1>
       <h3>(Ikke ment for utenforstående)</h3>
       <div id="memes">
         <img
